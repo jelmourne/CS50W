@@ -1,0 +1,9 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error {{error.capitalize}}
+{% endblock %}
+
+{% block body %}
+    <h1> {{ error }}, {{ type }}</h1>
+{% endblock %}
