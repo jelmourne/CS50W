@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/pset1/stylesheet.css">
+        <link rel="icon" type="image/x-icon" href="https://www.google.com/favicon.ico">
+        <title>Search</title>
+    </head>
+    <body>
+        <div class="sml-logo">
+            <a href="/pset1/views/index.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" height="33" width="96" alt="Google">
+            </a>
+        </div>
+        <h2>Advanced Search</h1>
+        <hr>
+        
+        <div>
+            <form action="https://www.google.com/search">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                <h3>Find Pages With...</h3>
+                            </td>
+                            <td></td>
+                            <td>
+                                <h4>To do this in the search box</h4>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h5>all these words:</h5>
+                            </td>
+                            <td>
+                                <input class="advsearch" type="text" name="as_q">
+                            </td>
+                            <td>
+                                <h5>Type the important words:  tricolor rat terrier</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>this exact word or phrase:</h5>
+                            </td>
+                            <td>
+                                <input class="advsearch" type="text" name="as_epq">
+                            </td>
+                            <td>
+                                <h5>Put exact words in quotes:  "rat terrier"</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>any of these words:</h5>
+                            </td>
+                            <td>
+                                <input class="advsearch" type="text" name="as_oq">
+                            </td>
+                            <td>
+                                <h5>Type OR between all the words you want:  miniature OR standard</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>none of these words:</h5>
+                            </td>
+                            <td>
+                                <input class="advsearch" type="text" name="as_eq">
+                            </td>
+                            <td>
+                                <h5>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h5>numbers ranging from:</h5>
+                            </td>
+                            <td>
+                                <input class="advsearch" type="text" name="as_nlo"> to <input class="advsearch" type="text" name="as_nhi">
+                            </td>
+                            <td>
+                                <h5>Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                </table>
+                <input class="button" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
